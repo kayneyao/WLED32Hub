@@ -5,6 +5,113 @@
 	(uuid "b70a5dae-17dd-4b3a-9018-d3dd2220f450")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:USB_C_Receptacle_PowerOnly_6P"
 			(pin_names
 				(offset 1.016)
@@ -2757,6 +2864,12 @@
 		(uuid "153f309d-7b4d-4df9-8e6d-1c17dcef9ec0")
 	)
 	(junction
+		(at 39.37 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15f02a9f-b8e5-49f2-85a6-3511598f8e0f")
+	)
+	(junction
 		(at 36.83 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2835,10 +2948,22 @@
 		(uuid "561d3d8e-970c-4fd4-84b5-caa179d70dd5")
 	)
 	(junction
+		(at 55.88 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60e13b43-c201-447c-8ea8-242aecd64356")
+	)
+	(junction
 		(at 78.105 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6491d460-3011-413e-aa80-b70d9c4fd878")
+	)
+	(junction
+		(at 29.21 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68f1b62f-dfab-473f-9716-a8e58b1c44c1")
 	)
 	(junction
 		(at 114.3 177.8)
@@ -2923,6 +3048,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b207bec4-d6ee-48ad-91d2-0a3e623541c4")
+	)
+	(junction
+		(at 29.21 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b40862d1-3cdf-43b0-aa9d-9e5fa61fe13d")
 	)
 	(junction
 		(at 124.46 177.8)
@@ -3368,6 +3499,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 63.5) (xy 40.64 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32f2e4e9-25f7-43dd-b918-9655caa39cae")
+	)
+	(wire
+		(pts
 			(xy 129.54 177.8) (xy 134.62 177.8)
 		)
 		(stroke
@@ -3495,6 +3636,16 @@
 			(type default)
 		)
 		(uuid "491521d1-f80b-404e-9b57-41dc6346dd84")
+	)
+	(wire
+		(pts
+			(xy 29.21 156.21) (xy 29.21 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "494bbffb-7cbf-4872-b208-f7506ec1097e")
 	)
 	(wire
 		(pts
@@ -4028,7 +4179,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 63.5) (xy 40.64 63.5)
+			(xy 35.56 63.5) (xy 39.37 63.5)
 		)
 		(stroke
 			(width 0)
@@ -4218,6 +4369,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 153.67) (xy 31.75 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95e4774c-397f-4870-853c-00e36cc44ab5")
+	)
+	(wire
+		(pts
 			(xy 162.56 116.84) (xy 160.02 116.84)
 		)
 		(stroke
@@ -4248,7 +4409,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 156.21) (xy 31.75 156.21)
+			(xy 27.94 156.21) (xy 29.21 156.21)
 		)
 		(stroke
 			(width 0)
@@ -4285,6 +4446,16 @@
 			(type default)
 		)
 		(uuid "a3431afc-233a-453d-9a0e-c01553dd28b7")
+	)
+	(wire
+		(pts
+			(xy 55.88 35.56) (xy 55.88 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a66f2167-940b-47f7-9001-6319d2dbd189")
 	)
 	(wire
 		(pts
@@ -4468,7 +4639,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 31.75) (xy 59.69 31.75)
+			(xy 50.8 31.75) (xy 55.88 31.75)
 		)
 		(stroke
 			(width 0)
@@ -4708,7 +4879,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 153.67) (xy 31.75 153.67)
+			(xy 27.94 153.67) (xy 29.21 153.67)
 		)
 		(stroke
 			(width 0)
@@ -4818,6 +4989,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 149.86) (xy 29.21 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4457ff5-1c17-42db-8b38-49009afc0c9a")
+	)
+	(wire
+		(pts
 			(xy 58.42 177.8) (xy 63.5 177.8)
 		)
 		(stroke
@@ -4845,6 +5026,16 @@
 			(type default)
 		)
 		(uuid "e5d4fca7-a208-4bb4-992e-b990ad6e7ad8")
+	)
+	(wire
+		(pts
+			(xy 55.88 31.75) (xy 59.69 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e633b6b0-9f59-4941-92ff-9cbcbeb79a34")
 	)
 	(wire
 		(pts
@@ -4895,6 +5086,16 @@
 			(type default)
 		)
 		(uuid "edcbeeb8-b3ff-49a5-b991-238c3c7a3ff4")
+	)
+	(wire
+		(pts
+			(xy 29.21 156.21) (xy 31.75 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eecaa0e1-b1b8-4a0d-bca9-c78aa558902d")
 	)
 	(wire
 		(pts
@@ -4975,6 +5176,16 @@
 			(type default)
 		)
 		(uuid "f725dcb2-6a0e-4886-931a-e370bc746a7c")
+	)
+	(wire
+		(pts
+			(xy 39.37 68.58) (xy 39.37 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f779ed25-d001-4078-87ac-512b270894ae")
 	)
 	(wire
 		(pts
@@ -6591,7 +6802,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 96.52 98.298 90)
 			(effects
 				(font
@@ -6862,7 +7073,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_WAGO:TerminalBlock_WAGO_2601-1102_1x02_P3.50mm_Horizontal"
 			(at 58.42 156.21 0)
 			(effects
 				(font
@@ -6933,7 +7144,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:WAGO_2606-1102"
 			(at 22.86 153.67 0)
 			(effects
 				(font
@@ -7209,6 +7420,207 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 39.37 68.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2355e444-bdae-468d-a87b-6c70336da12c")
+		(property "Reference" "TP2"
+			(at 41.91 70.6119 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 41.91 73.1519 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 34.29 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 39.37 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ae33a7f-460e-4eb1-b68a-1ea662c79e2d")
+		)
+		(instances
+			(project "WLED32Hub"
+				(path "/b70a5dae-17dd-4b3a-9018-d3dd2220f450"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 29.21 160.02 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b15043d-4bb2-4069-8f4c-81558142fae8")
+		(property "Reference" "TP4"
+			(at 31.75 162.0519 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 31.75 164.5919 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 24.13 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 29.21 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34c0796d-9622-40d8-ad00-986ce854bd2d")
+		)
+		(instances
+			(project "WLED32Hub"
+				(path "/b70a5dae-17dd-4b3a-9018-d3dd2220f450"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 55.88 35.56 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f9c5d35-d72e-4a11-b18f-0a979015a0a1")
+		(property "Reference" "TP1"
+			(at 58.42 37.5919 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 58.42 40.1319 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 50.8 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 55.88 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "781c9f84-99a1-402e-83a4-a1090733db7a")
+		)
+		(instances
+			(project ""
+				(path "/b70a5dae-17dd-4b3a-9018-d3dd2220f450"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:IRLB8721PBF")
 		(at 29.21 90.17 90)
 		(unit 1)
@@ -7450,7 +7862,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 116.84 98.298 90)
 			(effects
 				(font
@@ -7726,7 +8138,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 180.34 98.298 90)
 			(effects
 				(font
@@ -7796,7 +8208,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_WAGO:TerminalBlock_WAGO_2601-1102_1x02_P3.50mm_Horizontal"
 			(at 134.62 156.21 0)
 			(effects
 				(font
@@ -7866,7 +8278,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_WAGO:TerminalBlock_WAGO_2601-1102_1x02_P3.50mm_Horizontal"
 			(at 68.58 156.21 0)
 			(effects
 				(font
@@ -7933,7 +8345,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:Arduino_Pro_Micro"
 			(at 177.8 44.45 0)
 			(effects
 				(font
@@ -8069,7 +8481,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_WAGO:TerminalBlock_WAGO_2601-1102_1x02_P3.50mm_Horizontal"
 			(at 119.38 156.21 0)
 			(effects
 				(font
@@ -8202,7 +8614,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 137.16 127.508 90)
 			(effects
 				(font
@@ -8347,7 +8759,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_WAGO:TerminalBlock_WAGO_2601-1102_1x02_P3.50mm_Horizontal"
 			(at 93.98 156.21 0)
 			(effects
 				(font
@@ -8481,7 +8893,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 33.02 98.298 90)
 			(effects
 				(font
@@ -8551,7 +8963,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_WAGO:TerminalBlock_WAGO_2601-1102_1x02_P3.50mm_Horizontal"
 			(at 124.46 156.21 0)
 			(effects
 				(font
@@ -8621,7 +9033,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_WAGO:TerminalBlock_WAGO_2601-1102_1x02_P3.50mm_Horizontal"
 			(at 78.74 156.21 0)
 			(effects
 				(font
@@ -8688,7 +9100,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 158.75 98.298 90)
 			(effects
 				(font
@@ -8758,7 +9170,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_WAGO:TerminalBlock_WAGO_2601-1102_1x02_P3.50mm_Horizontal"
 			(at 83.82 156.21 0)
 			(effects
 				(font
@@ -9176,7 +9588,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 158.75 127.508 90)
 			(effects
 				(font
@@ -9243,7 +9655,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 74.295 127.508 90)
 			(effects
 				(font
@@ -9313,7 +9725,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_WAGO:TerminalBlock_WAGO_2601-1102_1x02_P3.50mm_Horizontal"
 			(at 129.54 156.21 0)
 			(effects
 				(font
@@ -9383,7 +9795,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_WAGO:TerminalBlock_WAGO_2601-1102_1x02_P3.50mm_Horizontal"
 			(at 88.9 156.21 0)
 			(effects
 				(font
@@ -9450,7 +9862,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 116.84 127.508 90)
 			(effects
 				(font
@@ -9662,7 +10074,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_WAGO:TerminalBlock_WAGO_2601-1102_1x02_P3.50mm_Horizontal"
 			(at 63.5 156.21 0)
 			(effects
 				(font
@@ -10064,7 +10476,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 138.43 98.298 90)
 			(effects
 				(font
@@ -10134,7 +10546,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SolderWirePad_1x05_SMD_1x2mm"
 			(at 210.82 59.69 0)
 			(effects
 				(font
@@ -10277,7 +10689,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 53.975 127.508 90)
 			(effects
 				(font
@@ -10478,7 +10890,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 32.385 127.508 90)
 			(effects
 				(font
@@ -10615,7 +11027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_WAGO:TerminalBlock_WAGO_2601-1102_1x02_P3.50mm_Horizontal"
 			(at 109.22 156.21 0)
 			(effects
 				(font
@@ -10667,7 +11079,7 @@
 		(dnp no)
 		(uuid "b77a2838-7c1d-4860-8f2c-1548dd518e96")
 		(property "Reference" "J12"
-			(at 106.68 154.686 90)
+			(at 106.68 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10685,7 +11097,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_WAGO:TerminalBlock_WAGO_2601-1102_1x02_P3.50mm_Horizontal"
 			(at 104.14 156.21 0)
 			(effects
 				(font
@@ -10819,7 +11231,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 74.93 98.298 90)
 			(effects
 				(font
@@ -10964,7 +11376,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 159.512 33.02 90)
 			(effects
 				(font
@@ -11176,7 +11588,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_WAGO:TerminalBlock_WAGO_2601-1102_1x02_P3.50mm_Horizontal"
 			(at 114.3 156.21 0)
 			(effects
 				(font
@@ -11244,7 +11656,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 154.94 41.148 90)
 			(effects
 				(font
@@ -11314,7 +11726,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_WAGO:TerminalBlock_WAGO_2601-1102_1x02_P3.50mm_Horizontal"
 			(at 99.06 156.21 0)
 			(effects
 				(font
@@ -11456,7 +11868,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 95.885 127.508 90)
 			(effects
 				(font
@@ -11593,7 +12005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_WAGO:TerminalBlock_WAGO_2601-1102_1x02_P3.50mm_Horizontal"
 			(at 73.66 156.21 0)
 			(effects
 				(font
@@ -12019,7 +12431,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 54.61 98.298 90)
 			(effects
 				(font
@@ -12086,7 +12498,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:ESP32_DevKit_V3.0"
 			(at 147.574 47.498 0)
 			(effects
 				(font
@@ -12237,6 +12649,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 29.21 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd6d7a62-c5c3-4535-9ed2-e01da77f0d3e")
+		(property "Reference" "TP3"
+			(at 31.75 145.2879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 31.75 147.8279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 34.29 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 29.21 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cfeddbdb-00c5-40d1-b84c-e0adde9acc56")
+		)
+		(instances
+			(project ""
+				(path "/b70a5dae-17dd-4b3a-9018-d3dd2220f450"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 180.34 125.73 90)
 		(unit 1)
@@ -12261,7 +12740,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 180.34 127.508 90)
 			(effects
 				(font
