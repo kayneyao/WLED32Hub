@@ -1,4 +1,4 @@
-25602822136953790
+25602822144568064
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -102646,7 +102646,7 @@ Through hole straight socket strip, 1x12, 2.54mm pitch, single row (from Kicad 4
 Through hole socket strip THT 1x12 2.54mm single row
 0
 24
-12
+24
 footprints
 ESP32_DevKit_V3.0
 Through hole straight socket strip, 1x19, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
@@ -102667,4 +102667,4 @@ WAGO_2606-1102
 
 0
 4
-4
+2
